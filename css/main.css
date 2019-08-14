@@ -1,0 +1,94 @@
+/* Styles for Flivver AI */
+/* By Monsenhor */
+
+/************ Typography ***********/
+
+@font-face {
+  font-family: hammer;
+  src: url(../fonts/hammer.woff);
+}
+@font-face {
+  font-family: engrave;
+  src: url(../fonts/engrave.woff);
+}
+
+body{
+font-family: hammer;
+}
+.page-title {
+    font-family: engrave;
+}
+
+/************** Colors *****************/
+
+a.nav-link.active, a.nav-link {
+    color: black;
+}
+
+/************** Basic design/layout ***************/
+
+img {
+    vertical-align: middle;
+    width: 100%;
+}
+div#bg {
+    background-image: url(/img/bg.jpg);
+    background-size: contain;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+div#logo {
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+div#menu {
+    width: 90%;
+    position: absolute;
+    top: 52%;
+    left: 5%;
+    /*margin-left: -100px;
+    margin-top: -100px;*/
+}
+div#footer {
+    width: 32em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -14em;
+    /* margin-top: -100px; */
+}
+div#header {
+    width: 38em;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -19em;
+    margin-top: 1em;
+    text-align: center;
+    flex-flow: column;
+}
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
